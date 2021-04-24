@@ -17,6 +17,11 @@ class ecuacionSegundoGrado ( ) :
             r2 = (-self.b - math.sqrt ( d )) / (2 * self.a)
             self.x1 = "{0:.2f}".format ( r1 )
             self.x2 = "{0:.2f}".format ( r2 )
+        else:
+            parteReal = -self.b / (2 * self.a)
+            parteImaginaria = math.fabs( math.sqrt ( math.fabs( d ) ) / (2 * self.a) )
+            self.x1 = "{0:.2f}+{1:.2f}i".format(parteReal,parteImaginaria)
+            self.x2 = "{0:.2f}-{1:.2f}i".format(parteReal,parteImaginaria)
 
         return self.x1 , self.x2
 

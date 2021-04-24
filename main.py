@@ -13,3 +13,5 @@ if __name__ == '__main__' :
     solucionarEcuacion ( 1 , 2 , 1 )
     solucionarEcuacion ( 3 , -5 , 1 )
     solucionarEcuacion ( 1 , 4 , 4 )
+    solucionarEcuacion ( 1 , 1 , 1)
+    solucionarEcuacion ( 1 , 2 , 3 )
